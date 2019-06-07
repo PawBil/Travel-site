@@ -15,4 +15,4 @@ gulp.task('styles', function() {
         this.emit('end');
     })
     .pipe(gulp.dest('./app/temp/styles'))
-})
+});
